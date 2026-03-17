@@ -1,8 +1,22 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #60285b;
+  color: white;
+  font-family:'Courier New', Courier, monospace
+  
 }
 
 a {
   color: #00B7FF;
+}
+
+p#paragrafo {
+  font-size: 20px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
 }

@@ -11,7 +11,8 @@ var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'hbs');
+app.set('view engine', 'ejs');
+//A viewEngine pode mudar o mecanismo de visualização para o que quiser entre hbs, pug e ejs
 
 app.use(logger('dev'));
 app.use(express.json());
